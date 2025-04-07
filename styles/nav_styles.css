@@ -1,0 +1,37 @@
+
+/* Navigation styles */
+
+body {
+    margin: none;
+}
+
+nav {
+    background-image: linear-gradient(45deg, #444, #2d4080);
+    border-bottom: lightgray 1px solid;
+    margin: none;
+    padding: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+nav ul li a {
+    color: #91c4FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    background-color: rgb(121, 121, 121);
+    border-radius: 5px;
+    color: white;
+    transition: background-color .3s, color .3s;
+}

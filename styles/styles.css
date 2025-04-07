@@ -1,0 +1,61 @@
+
+/* Base Styles */ 
+
+main {
+    background-color: #2a2a2a;
+    width: 80%;
+    margin: auto;
+    padding: none;
+    margin-top: none;
+}
+
+h2 {
+    color: #6899ff;
+    text-align: center;
+}
+
+h3 {
+    color: #6899ff;
+
+}
+
+p, li, aside {
+    color: white;
+}
+
+.content {
+    padding: 3%;
+}
+
+/* Adopt Styles */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    max-width: 400px;
+    background-color: white;
+    flex-basis: auto;
+    margin: 2%;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.card p {
+    color: black;
+}
+
+.card img {
+    width: 400px;
+}
+
+/* Volunteer Styles */
+
+#vol-img {
+    float: right;
+    width: 25%;
+}
