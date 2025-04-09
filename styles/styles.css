@@ -12,6 +12,8 @@ main {
 h2 {
     color: #6899ff;
     text-align: center;
+    border-bottom: lightslategray 1px solid;
+    padding-bottom: 1%;
 }
 
 h3 {
@@ -24,8 +26,9 @@ p, li, aside {
 }
 
 .content {
-    padding: 3%;
+    padding: 2%;
 }
+
 
 /* Adopt Styles */
 
@@ -37,7 +40,7 @@ p, li, aside {
 }
 
 .card {
-    max-width: 400px;
+    max-width: 300px;
     background-color: white;
     flex-basis: auto;
     margin: 2%;
@@ -49,8 +52,8 @@ p, li, aside {
     color: black;
 }
 
-.card img {
-    width: 400px;
+.card-content {
+    padding: 3%;
 }
 
 /* Volunteer Styles */

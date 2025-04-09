@@ -1,22 +1,17 @@
 
 /* Navigation styles */
 
-body {
-    margin: none;
-}
-
 nav {
     background-image: linear-gradient(45deg, #444, #2d4080);
     border-bottom: lightgray 1px solid;
-    margin: none;
-    padding: none;
+    padding: 10px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
-    padding: 1.5%;
+    padding: none;
 }
 
 nav ul li {
