@@ -1,0 +1,14 @@
+
+/* Volunteer Styles */
+
+#vol-img {
+    float: right;
+    width: 25%;
+    border-radius: 5px;
+    border: white 1px solid;
+    margin: 1%;
+}
+
+.content a {
+    color: #6899ff;
+}

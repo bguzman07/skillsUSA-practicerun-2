@@ -1,0 +1,31 @@
+
+/* Base Styles */ 
+
+main {
+    background-color: #2a2a2a;
+    width: 80%;
+    margin: auto;
+    padding: none;
+    margin-top: none;
+}
+
+h2 {
+    color: #6899ff;
+    text-align: center;
+    border-bottom: lightslategray 1px solid;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+h3 {
+    color: #6899ff;
+    border-bottom: lightgray 1px solid;
+}
+
+p, li, aside {
+    color: white;
+}
+
+.content {
+    padding: 2%;
+}
